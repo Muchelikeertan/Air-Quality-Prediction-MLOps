@@ -1,0 +1,14 @@
+{
+    "model_version": "V2",
+    "training_rows": 24,
+    "features": [
+        "pm2_5",
+        "pm10",
+        "carbon_monoxide",
+        "nitrogen_dioxide",
+        "sulphur_dioxide",
+        "ozone"
+    ],
+    "target": "us_aqi",
+    "trained_at": "2026-09-21T14:17:47"
+}
