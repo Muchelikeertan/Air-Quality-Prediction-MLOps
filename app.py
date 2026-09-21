@@ -6,7 +6,7 @@ import pandas as pd
 
 app=FastAPI(title="Air Quality Detection")
 
-model=joblib.load("air_quality_model.pkl")
+model=joblib.load("_air_quality_model.pkl")
 
 class AirQualityInput(BaseModel):
     pm2_5: float
